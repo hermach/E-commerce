@@ -1,0 +1,193 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #34495e ;
+}
+/* navbar */
+#name{
+  color:  #85c1e9 
+
+;
+  font-family: recia;
+
+}
+.bg{
+  background-color: #34495e;
+  /* border-bottom:solid  #85c1e9 
+
+; */
+}
+/* home page */
+.intro{
+    height: 100vh;
+    background-image: url("../img/home2-min.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    opacity: 0.8; 
+}
+.welcome{
+  float: left;
+  margin-top: 40vh;
+  text-align: center;
+  font-family: recia;
+  color: #1f618d 
+;
+  padding-left: 5vh;
+}
+#subtitle{
+    color:  #85c1e9 
+
+;
+    font-size: 7vh;
+    padding-left: 0vh;
+}
+/* articles section */
+.swd-title{
+    text-align: center;
+    font-family: recia;
+    color: #1f618d 
+;
+}
+.swd-title hr{
+    border: dashed #1f618d 
+;
+    margin-bottom: 10vh;
+}
+.shoes
+
+
+{
+    padding: 10vh;
+    background-color:  #85c1e9 
+
+;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articls-box {
+    background-color: #1f618d 
+;
+    padding: 2.5rem 1.3rem;
+    
+    margin-bottom: 3rem;
+  }
+  
+  
+  
+  .articls-box .a-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .4rem 0;
+  }
+  
+  .articls-box .a-description {
+    color: #4e4e4e;
+  }
+
+  .pants{
+    padding: 10vh;
+    background-color: #1f618d 
+;
+  }
+  .drk-title{
+    font-family: recia;
+    text-align: center;
+    color:  #85c1e9 
+
+;
+  }
+  .drk-title hr{
+    border:  dashed  #85c1e9 
+
+;
+    margin-bottom: 10vh;
+  }
+  .pants .articls-box{
+    background-color:  #85c1e9 
+
+;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    color: white;
+  }
+  .pants .articls-box .a-description {
+    color: white;
+  }
+  
+
+  /* footer section */
+  footer{
+    background-color: #1f618d 
+;
+    padding: 4.5mm;
+
+  }
+  .copyright{
+    color:  #85c1e9 
+
+;
+    text-align: center;
+  }
+
+  /* login page */
+  .log{
+    height: 100vh;
+    background-image: url("../img/home3-min.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+  }
+  .login{
+    position: relative;
+    animation-name: down;
+    animation-duration: 2s;
+    background-color:  #85c1e9 
+
+;
+    text-align: center;
+    /* padding: 15vh; */
+    border-radius: 10px; 
+  }
+  @keyframes down {
+    0%   {top:-400px;}
+    100% {top:0rem;}
+  }
+  input{
+    width: 50vh;
+    height: 7vh;
+    border: none;
+    border-bottom: solid 2px #1f618d 
+;
+    background-color:  #85c1e9 
+
+;
+  }
+  input::placeholder{
+    color: rgba(211, 211, 211, 0.582);
+  }
+  .login button{
+    width: 20vh;
+    height: 5vh;
+    background-color: #1f618d 
+;
+    color:  #85c1e9 
+
+;
+    border: none;
+    border-radius: 20px; 
+    margin-top: 10vh;
+  }
+  
+
+  
+
+

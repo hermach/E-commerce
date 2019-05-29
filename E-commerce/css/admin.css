@@ -1,0 +1,67 @@
+/* navbar */
+.bg{
+    background-color: #34495e;
+  }
+#name{
+    color: #85c1e9 ;
+    font-family: recia;
+  
+}
+/* sidebar */
+#Sidebar{
+    background-color: #85c1e9 ;
+    /* margin-top: 9vh; */
+    padding-top: 2rem;
+    color: wheat;
+}
+/* page content */
+.page-content{
+    
+    
+  
+}
+.title{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+/*  table  */
+.thead{
+    background-color: #34495e;
+}
+
+/* insert itmes */
+.add-form{
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 5rem;
+}
+.form-group{
+    margin-bottom: 3rem;
+}
+#price{
+    display: none;
+}
+#import{
+    border: solid 1px #cccccc;
+    border-radius: 3px;
+    padding-right: 24.5rem;
+
+}
+.btn{
+    color: #85c1e9 ;
+    background-color: #34495e;
+    width: 7rem;
+    border: 1px solid #85c1e9 ;
+}
+.btn:hover{
+    background-color: rgb(204, 147, 23);
+}
+
+/*  update page  */
+
+.input{
+    background-color: rgba(255, 255, 255, 0.075);
+    border: solid 0px;
+}
